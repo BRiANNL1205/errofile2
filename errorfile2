@@ -1,0 +1,402 @@
+26.11 08:05:04 [Server] INFO *** Server will start in 20 seconds ***
+26.11 08:05:04 [Server] INFO *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+26.11 08:05:04 [Server] INFO *** Error, this build is outdated ***
+26.11 08:05:04 [Server] INFO Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+26.11 08:05:04 [Server] INFO 376495
+26.11 08:05:04 [Server] INFO OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+26.11 08:05:04 [Server] INFO OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+26.11 08:05:04 [Multicraft] Failed to write to PID file: [Errno 28] No space left on device
+26.11 08:05:04 [Multicraft] Updating eula.txt file
+26.11 08:05:04 [Multicraft] JAR file not found. Go to "Settings"-"Update Minecraft" to download the JAR file.
+26.11 08:05:04 [Multicraft] Loaded config for "[custom] custom.jar (Java 7)"
+26.11 08:05:04 [Multicraft] Starting server!
+26.11 08:05:04 [Multicraft] Loading server properties
+26.11 08:04:59 [Multicraft] Server stopped
+26.11 08:04:59 [Multicraft] Restarting crashed server in 5 seconds
+26.11 08:04:59 [Multicraft] Server shut down (starting)
+26.11 08:04:59 [Server] INFO at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+26.11 08:04:59 [Server] INFO Caused by: java.io.IOException: No space left on device
+26.11 08:04:59 [Server] INFO at org.bukkit.craftbukkit.Main.main(Main.java:202)
+26.11 08:04:59 [Server] INFO at net.minecraft.server.v1_16_R3.Main.main(Main.java:66)
+26.11 08:04:59 [Server] INFO at net.minecraft.server.v1_16_R3.DedicatedServerSettings.save(DedicatedServerSettings.java:26)
+26.11 08:04:59 [Server] INFO at net.minecraft.server.v1_16_R3.PropertyManager.savePropertiesFile(PropertyManager.java:105)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:723)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1960)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1988)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:218)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:128)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+26.11 08:04:59 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.writeToDestination(RollingRandomAccessFileManager.java:113)
+26.11 08:04:59 [Server] INFO 2020-11-26 08:04:59,741 main ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:04:59 [Server] INFO 2020-11-26 08:04:59,740 main ERROR Unable to write to stream logs/latest.log for appender File: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:04:59 [Server] main/ERROR Failed to store properties to file: server.properties
+26.11 08:04:55 [Server] INFO Loading libraries, please wait...
+26.11 08:04:35 [Server] INFO *** Server will start in 20 seconds ***
+26.11 08:04:35 [Server] INFO *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+26.11 08:04:35 [Server] INFO *** Error, this build is outdated ***
+26.11 08:04:35 [Server] INFO Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+26.11 08:04:35 [Server] INFO 375662
+26.11 08:04:35 [Server] INFO OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+26.11 08:04:35 [Server] INFO OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+26.11 08:04:35 [Multicraft] Failed to write to PID file: [Errno 28] No space left on device
+26.11 08:04:35 [Multicraft] Updating eula.txt file
+26.11 08:04:35 [Multicraft] JAR file not found. Go to "Settings"-"Update Minecraft" to download the JAR file.
+26.11 08:04:35 [Multicraft] Loaded config for "[custom] custom.jar (Java 7)"
+26.11 08:04:35 [Multicraft] Starting server!
+26.11 08:04:35 [Multicraft] Loading server properties
+26.11 08:04:30 [Multicraft] Server stopped
+26.11 08:04:30 [Multicraft] Restarting crashed server in 5 seconds
+26.11 08:04:30 [Multicraft] Server shut down (starting)
+26.11 08:04:30 [Server] INFO at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+26.11 08:04:30 [Server] INFO Caused by: java.io.IOException: No space left on device
+26.11 08:04:30 [Server] INFO at org.bukkit.craftbukkit.Main.main(Main.java:202)
+26.11 08:04:30 [Server] INFO at net.minecraft.server.v1_16_R3.Main.main(Main.java:66)
+26.11 08:04:30 [Server] INFO at net.minecraft.server.v1_16_R3.DedicatedServerSettings.save(DedicatedServerSettings.java:26)
+26.11 08:04:30 [Server] INFO at net.minecraft.server.v1_16_R3.PropertyManager.savePropertiesFile(PropertyManager.java:105)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:723)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1960)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1988)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:218)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:128)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+26.11 08:04:30 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.writeToDestination(RollingRandomAccessFileManager.java:113)
+26.11 08:04:30 [Server] INFO 2020-11-26 08:04:30,695 main ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:04:30 [Server] INFO 2020-11-26 08:04:30,694 main ERROR Unable to write to stream logs/latest.log for appender File: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:04:30 [Server] main/ERROR Failed to store properties to file: server.properties
+26.11 08:04:26 [Server] INFO Loading libraries, please wait...
+26.11 08:04:06 [Server] INFO *** Server will start in 20 seconds ***
+26.11 08:04:06 [Server] INFO *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+26.11 08:04:06 [Server] INFO *** Error, this build is outdated ***
+26.11 08:04:06 [Server] INFO Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+26.11 08:04:06 [Server] INFO 374957
+26.11 08:04:06 [Server] INFO OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+26.11 08:04:06 [Server] INFO OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+26.11 08:04:06 [Multicraft] Failed to write to PID file: [Errno 28] No space left on device
+26.11 08:04:06 [Multicraft] Updating eula.txt file
+26.11 08:04:06 [Multicraft] JAR file not found. Go to "Settings"-"Update Minecraft" to download the JAR file.
+26.11 08:04:06 [Multicraft] Loaded config for "[custom] custom.jar (Java 7)"
+26.11 08:04:06 [Multicraft] Starting server!
+26.11 08:04:06 [Multicraft] Loading server properties
+26.11 08:04:01 [Multicraft] Server stopped
+26.11 08:04:01 [Multicraft] Restarting crashed server in 5 seconds
+26.11 08:04:01 [Multicraft] Server shut down (starting)
+26.11 08:04:01 [Server] INFO at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+26.11 08:04:01 [Server] INFO Caused by: java.io.IOException: No space left on device
+26.11 08:04:01 [Server] INFO at org.bukkit.craftbukkit.Main.main(Main.java:202)
+26.11 08:04:01 [Server] INFO at net.minecraft.server.v1_16_R3.Main.main(Main.java:66)
+26.11 08:04:01 [Server] INFO at net.minecraft.server.v1_16_R3.DedicatedServerSettings.save(DedicatedServerSettings.java:26)
+26.11 08:04:01 [Server] INFO at net.minecraft.server.v1_16_R3.PropertyManager.savePropertiesFile(PropertyManager.java:105)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:723)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1960)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1988)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:218)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:128)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+26.11 08:04:01 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.writeToDestination(RollingRandomAccessFileManager.java:113)
+26.11 08:04:01 [Server] INFO 2020-11-26 08:04:01,205 main ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:04:01 [Server] INFO 2020-11-26 08:04:01,203 main ERROR Unable to write to stream logs/latest.log for appender File: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:04:01 [Server] main/ERROR Failed to store properties to file: server.properties
+26.11 08:03:57 [Server] INFO Loading libraries, please wait...
+26.11 08:03:37 [Server] INFO *** Server will start in 20 seconds ***
+26.11 08:03:37 [Server] INFO *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+26.11 08:03:37 [Server] INFO *** Error, this build is outdated ***
+26.11 08:03:37 [Server] INFO Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+26.11 08:03:37 [Server] INFO 374255
+26.11 08:03:37 [Server] INFO OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+26.11 08:03:37 [Server] INFO OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+26.11 08:03:37 [Multicraft] Failed to write to PID file: [Errno 28] No space left on device
+26.11 08:03:37 [Multicraft] Updating eula.txt file
+26.11 08:03:37 [Multicraft] JAR file not found. Go to "Settings"-"Update Minecraft" to download the JAR file.
+26.11 08:03:37 [Multicraft] Loaded config for "[custom] custom.jar (Java 7)"
+26.11 08:03:37 [Multicraft] Starting server!
+26.11 08:03:37 [Multicraft] Loading server properties
+26.11 08:03:32 [Multicraft] Server stopped
+26.11 08:03:32 [Multicraft] Restarting crashed server in 5 seconds
+26.11 08:03:32 [Multicraft] Server shut down (starting)
+26.11 08:03:32 [Server] INFO at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+26.11 08:03:32 [Server] INFO Caused by: java.io.IOException: No space left on device
+26.11 08:03:32 [Server] INFO at org.bukkit.craftbukkit.Main.main(Main.java:202)
+26.11 08:03:32 [Server] INFO at net.minecraft.server.v1_16_R3.Main.main(Main.java:66)
+26.11 08:03:32 [Server] INFO at net.minecraft.server.v1_16_R3.DedicatedServerSettings.save(DedicatedServerSettings.java:26)
+26.11 08:03:32 [Server] INFO at net.minecraft.server.v1_16_R3.PropertyManager.savePropertiesFile(PropertyManager.java:105)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:723)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1960)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1988)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:218)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:128)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+26.11 08:03:32 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.writeToDestination(RollingRandomAccessFileManager.java:113)
+26.11 08:03:32 [Server] INFO 2020-11-26 08:03:32,423 main ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:03:32 [Server] INFO 2020-11-26 08:03:32,422 main ERROR Unable to write to stream logs/latest.log for appender File: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:03:32 [Server] main/ERROR Failed to store properties to file: server.properties
+26.11 08:03:28 [Server] INFO Loading libraries, please wait...
+26.11 08:03:08 [Server] INFO *** Server will start in 20 seconds ***
+26.11 08:03:08 [Server] INFO *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+26.11 08:03:08 [Server] INFO *** Error, this build is outdated ***
+26.11 08:03:08 [Server] INFO Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+26.11 08:03:08 [Server] INFO 373424
+26.11 08:03:08 [Server] INFO OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+26.11 08:03:08 [Server] INFO OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+26.11 08:03:08 [Multicraft] Failed to write to PID file: [Errno 28] No space left on device
+26.11 08:03:08 [Multicraft] Updating eula.txt file
+26.11 08:03:08 [Multicraft] JAR file not found. Go to "Settings"-"Update Minecraft" to download the JAR file.
+26.11 08:03:08 [Multicraft] Loaded config for "[custom] custom.jar (Java 7)"
+26.11 08:03:08 [Multicraft] Starting server!
+26.11 08:03:08 [Multicraft] Loading server properties
+26.11 08:03:03 [Multicraft] Server stopped
+26.11 08:03:03 [Multicraft] Restarting crashed server in 5 seconds
+26.11 08:03:03 [Multicraft] Server shut down (starting)
+26.11 08:03:03 [Server] INFO at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+26.11 08:03:03 [Server] INFO Caused by: java.io.IOException: No space left on device
+26.11 08:03:03 [Server] INFO at org.bukkit.craftbukkit.Main.main(Main.java:202)
+26.11 08:03:03 [Server] INFO at net.minecraft.server.v1_16_R3.Main.main(Main.java:66)
+26.11 08:03:03 [Server] INFO at net.minecraft.server.v1_16_R3.DedicatedServerSettings.save(DedicatedServerSettings.java:26)
+26.11 08:03:03 [Server] INFO at net.minecraft.server.v1_16_R3.PropertyManager.savePropertiesFile(PropertyManager.java:105)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:723)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1960)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1988)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:218)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:128)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+26.11 08:03:03 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.writeToDestination(RollingRandomAccessFileManager.java:113)
+26.11 08:03:03 [Server] INFO 2020-11-26 08:03:03,478 main ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:03:03 [Server] INFO 2020-11-26 08:03:03,477 main ERROR Unable to write to stream logs/latest.log for appender File: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:03:03 [Server] main/ERROR Failed to store properties to file: server.properties
+26.11 08:02:59 [Server] INFO Loading libraries, please wait...
+26.11 08:02:39 [Server] INFO *** Server will start in 20 seconds ***
+26.11 08:02:39 [Server] INFO *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+26.11 08:02:39 [Server] INFO *** Error, this build is outdated ***
+26.11 08:02:39 [Server] INFO Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+26.11 08:02:39 [Server] INFO 372691
+26.11 08:02:39 [Server] INFO OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+26.11 08:02:39 [Server] INFO OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+26.11 08:02:39 [Multicraft] Failed to write to PID file: [Errno 28] No space left on device
+26.11 08:02:39 [Multicraft] Updating eula.txt file
+26.11 08:02:39 [Multicraft] JAR file not found. Go to "Settings"-"Update Minecraft" to download the JAR file.
+26.11 08:02:39 [Multicraft] Loaded config for "[custom] custom.jar (Java 7)"
+26.11 08:02:39 [Multicraft] Starting server!
+26.11 08:02:39 [Multicraft] Loading server properties
+26.11 08:02:34 [Multicraft] Server stopped
+26.11 08:02:34 [Multicraft] Restarting crashed server in 5 seconds
+26.11 08:02:34 [Multicraft] Server shut down (starting)
+26.11 08:02:34 [Server] INFO at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+26.11 08:02:34 [Server] INFO Caused by: java.io.IOException: No space left on device
+26.11 08:02:34 [Server] INFO at org.bukkit.craftbukkit.Main.main(Main.java:202)
+26.11 08:02:34 [Server] INFO at net.minecraft.server.v1_16_R3.Main.main(Main.java:66)
+26.11 08:02:34 [Server] INFO at net.minecraft.server.v1_16_R3.DedicatedServerSettings.save(DedicatedServerSettings.java:26)
+26.11 08:02:34 [Server] INFO at net.minecraft.server.v1_16_R3.PropertyManager.savePropertiesFile(PropertyManager.java:105)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:723)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1960)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1988)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:218)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:128)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+26.11 08:02:34 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.writeToDestination(RollingRandomAccessFileManager.java:113)
+26.11 08:02:34 [Server] INFO 2020-11-26 08:02:34,294 main ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:02:34 [Server] INFO 2020-11-26 08:02:34,293 main ERROR Unable to write to stream logs/latest.log for appender File: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:02:34 [Server] main/ERROR Failed to store properties to file: server.properties
+26.11 08:02:30 [Server] INFO Loading libraries, please wait...
+26.11 08:02:10 [Server] INFO *** Server will start in 20 seconds ***
+26.11 08:02:10 [Server] INFO *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+26.11 08:02:10 [Server] INFO *** Error, this build is outdated ***
+26.11 08:02:10 [Server] INFO Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+26.11 08:02:10 [Server] INFO 371939
+26.11 08:02:10 [Server] INFO OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+26.11 08:02:10 [Server] INFO OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+26.11 08:02:10 [Multicraft] Failed to write to PID file: [Errno 28] No space left on device
+26.11 08:02:10 [Multicraft] Updating eula.txt file
+26.11 08:02:10 [Multicraft] JAR file not found. Go to "Settings"-"Update Minecraft" to download the JAR file.
+26.11 08:02:10 [Multicraft] Loaded config for "[custom] custom.jar (Java 7)"
+26.11 08:02:10 [Multicraft] Starting server!
+26.11 08:02:10 [Multicraft] Loading server properties
+26.11 08:02:05 [Multicraft] Server stopped
+26.11 08:02:05 [Multicraft] Restarting crashed server in 5 seconds
+26.11 08:02:05 [Multicraft] Server shut down (starting)
+26.11 08:02:05 [Server] INFO at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+26.11 08:02:05 [Server] INFO Caused by: java.io.IOException: No space left on device
+26.11 08:02:05 [Server] INFO at org.bukkit.craftbukkit.Main.main(Main.java:202)
+26.11 08:02:05 [Server] INFO at net.minecraft.server.v1_16_R3.Main.main(Main.java:66)
+26.11 08:02:05 [Server] INFO at net.minecraft.server.v1_16_R3.DedicatedServerSettings.save(DedicatedServerSettings.java:26)
+26.11 08:02:05 [Server] INFO at net.minecraft.server.v1_16_R3.PropertyManager.savePropertiesFile(PropertyManager.java:105)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:723)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1960)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1988)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:218)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:128)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+26.11 08:02:05 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.writeToDestination(RollingRandomAccessFileManager.java:113)
+26.11 08:02:05 [Server] INFO 2020-11-26 08:02:05,046 main ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:02:05 [Server] INFO 2020-11-26 08:02:05,045 main ERROR Unable to write to stream logs/latest.log for appender File: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:02:05 [Server] main/ERROR Failed to store properties to file: server.properties
+26.11 08:02:01 [Server] INFO Loading libraries, please wait...
+26.11 08:01:41 [Server] INFO *** Server will start in 20 seconds ***
+26.11 08:01:41 [Server] INFO *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+26.11 08:01:41 [Server] INFO *** Error, this build is outdated ***
+26.11 08:01:41 [Server] INFO Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+26.11 08:01:41 [Server] INFO 371217
+26.11 08:01:41 [Server] INFO OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+26.11 08:01:41 [Server] INFO OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+26.11 08:01:41 [Multicraft] Failed to write to PID file: [Errno 28] No space left on device
+26.11 08:01:41 [Multicraft] Updating eula.txt file
+26.11 08:01:41 [Multicraft] JAR file not found. Go to "Settings"-"Update Minecraft" to download the JAR file.
+26.11 08:01:41 [Multicraft] Loaded config for "[custom] custom.jar (Java 7)"
+26.11 08:01:41 [Multicraft] Starting server!
+26.11 08:01:41 [Multicraft] Loading server properties
+26.11 08:01:36 [Multicraft] Server stopped
+26.11 08:01:36 [Multicraft] Restarting crashed server in 5 seconds
+26.11 08:01:36 [Multicraft] Server shut down (starting)
+26.11 08:01:36 [Server] INFO at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+26.11 08:01:36 [Server] INFO Caused by: java.io.IOException: No space left on device
+26.11 08:01:36 [Server] INFO at org.bukkit.craftbukkit.Main.main(Main.java:202)
+26.11 08:01:36 [Server] INFO at net.minecraft.server.v1_16_R3.Main.main(Main.java:66)
+26.11 08:01:36 [Server] INFO at net.minecraft.server.v1_16_R3.DedicatedServerSettings.save(DedicatedServerSettings.java:26)
+26.11 08:01:36 [Server] INFO at net.minecraft.server.v1_16_R3.PropertyManager.savePropertiesFile(PropertyManager.java:105)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:723)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1960)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1988)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.Logger.logMessage(Logger.java:146)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:63)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:403)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:417)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:433)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:448)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:84)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:120)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:129)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:156)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender.append(RollingRandomAccessFileAppender.java:218)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.append(AbstractOutputStreamAppender.java:161)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.tryAppend(AbstractOutputStreamAppender.java:170)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender.directEncodeEvent(AbstractOutputStreamAppender.java:179)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.flush(RollingRandomAccessFileManager.java:128)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.appender.OutputStreamManager.flushBuffer(OutputStreamManager.java:288)
+26.11 08:01:36 [Server] INFO at org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.writeToDestination(RollingRandomAccessFileManager.java:113)
+26.11 08:01:36 [Server] INFO 2020-11-26 08:01:36,168 main ERROR An exception occurred processing Appender File org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:01:36 [Server] INFO 2020-11-26 08:01:36,167 main ERROR Unable to write to stream logs/latest.log for appender File: org.apache.logging.log4j.core.appender.AppenderLoggingException: Error writing to RandomAccessFile logs/latest.log
+26.11 08:01:36 [Server] main/ERROR Failed to store properties to file: server.properties
+26.11 08:01:32 [Server] INFO Loading libraries, please wait...
+26.11 08:01:12 [Server] INFO *** Server will start in 20 seconds ***
+26.11 08:01:12 [Server] INFO *** Please download a new build as per instructions from https://www.spigotmc.org/go/outdated-spigot ***
+26.11 08:01:12 [Server] INFO *** Error, this build is outdated ***
+26.11 08:01:12 [Server] INFO Try using the -Djava.io.tmpdir= option to select an alternate temp location.
+26.11 08:01:12 [Server] INFO 370465
+26.11 08:01:12 [Server] INFO OpenJDK 64-Bit Server VM warning: Insufficient space for shared memory file:
+26.11 08:01:12 [Server] INFO OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+26.11 08:01:12 [Multicraft] Failed to write to PID file: [Errno 28] No space left on device
+26.11 08:01:12 [Multicraft] Updating eula.txt file
+26.11 08:01:12 [Multicraft] JAR file not found. Go to "Settings"-"Update Minecraft" to download the JAR file.
+26.11 08:01:12 [Multicraft] Loaded config for "[custom] custom.jar (Java 7)"
+26.11 08:01:12 [Multicraft] Starting server!
+26.11 08:01:12 [Multicraft] Loading server properties
+26.11 08:01:07 [Multicraft] Server stopped
+26.11 08:01:07 [Multicraft] Restarting crashed server in 5 seconds
+26.11 08:01:07 [Multicraft] Server shut down (starting)
+26.11 08:01:07 [Server] INFO at java.base/java.io.RandomAccessFile.writeBytes(Native Method)
+26.11 08:01:07 [Server] INFO Caused by: java.io.IOException: No space left on device
+26.11 08:01:07 [Server] INFO at org.bukkit.craftbukkit.Main.main(Main.java:202)
+26.11 08:01:07 [Server] INFO at net.minecraft.server.v1_16_R3.Main.main(Main.java:66)
+26.11 08:01:07 [Server] INFO at net.minecraft.server.v1_16_R3.DedicatedServerSettings.save(DedicatedServerSettings.java:26)
+26.11 08:01:07 [Server] INFO at net.minecraft.server.v1_16_R3.PropertyManager.savePropertiesFile(PropertyManager.java:105)
+26.11 08:01:07 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.error(AbstractLogger.java:723)
+26.11 08:01:07 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1960)
+26.11 08:01:07 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:1988)
+26.11 08:01:07 [Server] INFO at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2091)
